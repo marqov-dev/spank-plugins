@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+!lib/systemd/tmpfiles.d/
 
 # Compiled Object files
 *.slo
@@ -66,7 +67,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
